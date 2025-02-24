@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         
         let a = [1,2,3,4,5]
         let ar = [2,3,3,2,5,7,8,5]
-        let arr = ["1","2","3","Sree","Kanth"]
+        let arr = ["1","2","3","Sree","Kanth","Ravi"]
         let arra = [1,2,3,nil,nil,4,5]
         let array = ["Sree","Kanth","KANTH"]
         let array44 = ["aa","ss","aa"]
