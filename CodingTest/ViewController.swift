@@ -193,6 +193,14 @@ class ViewController: UIViewController {
         print(result)
         
         
+        // Swift program to use sorted() function
+        let wordss = ["apple", "banana", "cherry", "date"]
+          
+        // Sorting an array of integers in descending order
+        let sortedWords = wordss.sorted(by: { $0 > $1 })
+          
+        print(sortedWords)
+        
         
     }
 
