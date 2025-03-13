@@ -121,6 +121,110 @@ class InterviewQuestions: UIViewController {
 //        88. How do you scale a SwiftUI app for a large team?
 //        89. How do you handle deep linking in iOS?
 //        90. What is Event-Driven Architecture in iOS?
+        
+        
+        
+//        1. What are Optionals in Swift?
+//        2. What is the difference between var and let?
+//        3. What is the difference between struct and class?
+//        4. What are computed properties and lazy properties?
+//        5. How does Swift handle memory management?
+//        6. What are type aliases in Swift?
+//        7. What is type inference in Swift?
+//        8. What are raw values and associated values in enums?
+//        9. What is the difference between Any, AnyObject, and nil in Swift?
+//        10. How does Swift handle nil values safely?
+//        11. What is a tuple in Swift?
+//        12. What is the difference between a function and a closure in Swift?
+//        13. How does Swift handle errors using throws?
+//        14. What are generics in Swift?
+//        15. What is the difference between Array, Set, and Dictionary?
+//        16. How do you define a function in Swift?
+//        17. What is the difference between inout parameters and return values?
+//        18. How do trailing closures work in Swift?
+//        19. What is an autoclosure in Swift?
+//        20. What is the difference between escaping and non-escaping closures?
+//        21. What is a completion handler, and how do you use it?
+//        22. What is the difference between map, compactMap, and flatMap?
+//        23. What are higher-order functions in Swift?
+//        24. What is a keypath in Swift?
+//        25. What is the purpose of the defer keyword in Swift?
+//        26. What is protocol-oriented programming (POP) in Swift?
+//        27. What is the difference between a protocol and an abstract class?
+//        28. What is polymorphism in Swift?
+//        29. What is the purpose of mutating in Swift protocols?
+//        30. What is the difference between weak, unowned, and strong references?
+//        31. How do you create a protocol with associated types?
+//        32. What is protocol extension in Swift?
+//        33. What is a static property vs a class property in Swift?
+//        34. What is an opaque type in Swift?
+//        35. How do you implement delegation in Swift?
+//        36. What is Automatic Reference Counting (ARC)?
+//        37. What is a retain cycle, and how do you prevent it?
+//        38. How do you break strong reference cycles in closures?
+//        39. What is a memory leak in Swift?
+//        40. How do you use the Memory Graph Debugger in Xcode?
+//        41. What is the deinit method in Swift?
+//        42. What is an autorelease pool in Swift?
+//        43. What is copy-on-write in Swift?
+//        44. How does lazy var help with memory optimization?
+//        45. How do you detect and fix memory leaks in Swift?
+//        46. What is Grand Central Dispatch (GCD) in Swift?
+//        47. What is the difference between sync and async in GCD?
+//        48. What is DispatchQueue.main.async used for?
+//        49. What is NSOperationQueue, and how is it different from GCD?
+//        50. What is async/await in Swift?
+//        51. How does Task {} work in Swift?
+//        52. What is TaskGroup in Swift Concurrency?
+//        53. What is an actor in Swift?
+//        54. How does Task.detached {} work?
+//        55. What is priority inversion in multithreading?
+//        56. What is isolation in Swift Concurrency?
+//        57. What is the difference between UIViewController and View in SwiftUI?
+//        58. How does @State, @Binding, and @ObservedObject work in SwiftUI?
+//        59. What is an EnvironmentObject in SwiftUI?
+//        60. What is the difference between NavigationView and NavigationStack?
+//        61. How does LazyVStack and LazyHStack work?
+//        62. How does @Namespace help in SwiftUI animations?
+//        63. How does onAppear and onDisappear work in SwiftUI?
+//        64. How does List work in SwiftUI?
+//        65. What is ViewModifier, and how is it used?
+//        66. What is the difference between .frame() and .padding() in SwiftUI?
+//        67. What is MatchedGeometryEffect, and how does it work?
+//        68. How do you optimize SwiftUI lists for performance?
+//        69. How does URLSession handle background downloads?
+//        70. What is Core Data, and how do you use it?
+//        71. What is Combine in Swift?
+//        72. What is the difference between UserDefaults, Keychain, and CoreData?
+//        73. How do you store and retrieve data using UserDefaults?
+//        74. What is the difference between synchronous and asynchronous programming?
+//        75. What is a singleton pattern, and how do you implement it?
+//        76. What is Codable, and how do you use it in Swift?
+//        77. What is dependency injection in Swift?
+//        78. What is the difference between @Published and @StateObject?
+//        79. What are storyboards, XIBs, and programmatic UI in iOS?
+//        80. How does Auto Layout work in UIKit?
+//        81. How do you make a network request using URLSession?
+//        82. What is URLSessionDelegate, and how is it used?
+//        83. What is WebSockets, and how does Swift handle them?
+//        84. What is OAuth authentication, and how do you implement it in Swift?
+//        85. How do you handle API response caching in Swift?
+//        86. What is the difference between MVC, MVVM, and VIPER?
+//        87. What is Clean Architecture in iOS?
+//        88. How do you implement the Coordinator pattern in Swift?
+//        89. What is SOLID principle in Swift?
+//        90. What is The Composable Architecture (TCA)?
+//        91. What is event-driven architecture in iOS?
+//        92. How does Swift handle state management?
+//        93. What is unit testing in Swift?
+//        94. What is the difference between XCTest and Quick/Nimble?
+//        95. How do you write UI tests in Xcode?
+//        96. What is the purpose of code coverage in testing?
+//        97. How do you debug memory leaks in Swift?
+//        98. What is print() debugging, and why should you avoid it?
+//        99. How do you debug a crashing iOS app?
+//        100. What are the best practices for logging in Swift?
+        
     }
     
 
