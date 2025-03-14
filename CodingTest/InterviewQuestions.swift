@@ -225,6 +225,47 @@ class InterviewQuestions: UIViewController {
 //        99. How do you debug a crashing iOS app?
 //        100. What are the best practices for logging in Swift?
         
+        
+        
+//        CI/CD
+//            software development, testing, and deployment.
+//        Agile Methodology
+//            Fast Delivery & Flexible Development
+//            Bug Fixes
+//            Quality app
+//            Client satisfactions
+//            Collaboration → Developers, QA, Designers & Clients
+//        Scrum Methodology
+//            List of features & tasks
+//            Sprint Planning
+//            Daily Standup
+//            Sprint Review
+//        Test-Driven Development (TDD)
+//            We need to develop Test cases first(Failure or Success cases like that)
+//            after actual code developed
+//        What is TaskGroup?
+//            TaskGroup allows parallel execution of multiple tasks.
+//        SOLID Principles in Swift
+//            Write clean, maintainable, and scalable code in Swift
+//                S – Single Responsibility Principle (SRP)
+//                O – Open/Closed Principle (OCP)
+//                L – Liskov Substitution Principle (LSP)
+//                I – Interface Segregation Principle (ISP)
+//                D – Dependency Inversion Principle (DIP)
+//        How to Handle Deep Linking in iOS?
+//            Deep Linking - only opens the app
+//        How to Handle Universal Links in iOS?
+//            Universal Link - open in Safari, Messages, etc
+//        Protocol-Oriented Programming (POP)
+//            Protocol-Oriented Programming (POP) is a powerful programming
+//            Code reusability, flexibility, and maintainability
+//        What is Clean Architecture in iOS?
+//            Presentation Layer (UI Layer) – ViewControllers, Views, SwiftUI
+//            Domain Layer (Business Logic Layer)
+//            Data Layer (Data Source Layer)
+        
+        
+        
     }
     
 
