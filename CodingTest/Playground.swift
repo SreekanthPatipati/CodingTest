@@ -148,7 +148,11 @@ class PlayGround: UIViewController {
 
 
 
-
+        var swapNumbers = [1,2,4,5,6,7,8,9]
+        for i in stride(from: 0, to: swapNumbers.count - 1, by: 2) {
+            swapNumbers.swapAt(i, i + 2)
+        }
+        print("-------swapNumbers---------->:\(swapNumbers)")
 
 
 
