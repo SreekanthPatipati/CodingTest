@@ -262,90 +262,87 @@ class InterviewQuestions: UIViewController {
         /*
          
          CI/CD
-         software development, testing, and deployment.
+            software development, testing, and deployment.
          Agile Methodology
-         Fast Delivery & Flexible Development
-         Bug Fixes
-         Quality app
-         Client satisfactions
-         Collaboration → Developers, QA, Designers & Clients
+            Fast Delivery & Flexible Development
+            Bug Fixes
+            Quality app
+            Client satisfactions
+            Collaboration → Developers, QA, Designers & Clients
          Scrum Methodology
-         List of features & tasks
-         Sprint Planning
-         Daily Standup
-         Sprint Review
+            List of features & tasks
+            Sprint Planning
+            Daily Standup
+            Sprint Review
          Test-Driven Development (TDD)
-         We need to develop Test cases first(Failure or Success cases like that)
-         after actual code developed
+            We need to develop Test cases first(Failure or Success cases like that)
+            after actual code developed
          What is TaskGroup?
-         TaskGroup allows parallel execution of multiple tasks.
+            TaskGroup allows parallel execution of multiple tasks.
          SOLID Principles in Swift
-         Write clean, maintainable, and scalable code in Swift
-         S – Single Responsibility Principle (SRP)
-         O – Open/Closed Principle (OCP)
-         L – Liskov Substitution Principle (LSP)
-         I – Interface Segregation Principle (ISP)
-         D – Dependency Inversion Principle (DIP)
+            Write clean, maintainable, and scalable code in Swift
+            S – Single Responsibility Principle (SRP)
+            O – Open/Closed Principle (OCP)
+            L – Liskov Substitution Principle (LSP)
+            I – Interface Segregation Principle (ISP)
+            D – Dependency Inversion Principle (DIP)
          How to Handle Deep Linking in iOS?
-         Deep Linking - only opens the app
+            Deep Linking - only opens the app
          How to Handle Universal Links in iOS?
-         Universal Link - open in Safari, Messages, etc
+            Universal Link - open in Safari, Messages, etc
          Protocol-Oriented Programming (POP)
-         Protocol-Oriented Programming (POP) is a powerful programming
-         Code reusability, flexibility, and maintainability
+            Protocol-Oriented Programming (POP) is a powerful programming
+            Code reusability, flexibility, and maintainability
          What is Clean Architecture in iOS?
-         Presentation Layer (UI Layer) – ViewControllers, Views, SwiftUI
-         Domain Layer (Business Logic Layer)
-         Data Layer (Data Source Layer)
+            - Presentation Layer (UI Layer) – ViewControllers, Views, SwiftUI
+            - Domain Layer (Business Logic Layer)
+            - Data Layer (Data Source Layer)
          What are generics in Swift?
-         Code reusability increases
-         Performance increases
-         Type Safety
-         <T> is Placeholder
+            Code reusability increases
+            Performance increases
+            Type Safety
+            <T> is Placeholder
          What is event-driven architecture in iOS?
-         Event-Driven Architecture is a user Action [Button Click,Delegates,Notification Center,TableView Delegate]
-         App respond accordingly based on that action
-         Ex - didSelectRowAt in tableview
-         Types of Closures
-         Global Closures
-         They are declared globally, outside of any function or class.
-         Assign function to a variable
-         Nested (Local) Closures
-         function in side closure is defined
-         Closure Expressions (Inline Closures)
-         These are anonymous closures used in higher-order functions like map, filter, and reduce.
-         Escaping Closures
-         AutoClosures
+            Event-Driven Architecture is a user Action [Button Click,Delegates,Notification Center,TableView Delegate]
+            App respond accordingly based on that action
+            Ex - didSelectRowAt in tableview
+         Types of Closures?
+            - Global Closures - They are declared globally, outside of any function or class.
+                                Assign function to a variable
+            - Nested (Local) Closures - function in side closure is defined
+            - Closure Expressions (Inline Closures) - These are anonymous closures used in higher-order functions like map, filter, and reduce.
+            - Escaping Closures
+            - AutoClosures
          Type Aliases in Swift?
-         create a new name for an existing data type
+            create a new name for an existing data type
          rethrows in Swift
-         Rethrows keyword- handling error throwing functions
+            Rethrows keyword- handling error throwing functions
          How does @Namespace work in SwiftUI animations?
-         @Namespace - create smooth animations between views.
+            @Namespace - create smooth animations between views.
          Memory Leak
-         A memory leak happens when an object stays in memory and is not removed, which can slow down or crash the app.
-         Memory leak means memory is not released by ARC.
-         You can use weak or unowned references to avoid(break) retain cycles.
-         You can avoid retain cycles in closures using [weak self]
+            A memory leak happens when an object stays in memory and is not removed, which can slow down or crash the app.
+            Memory leak means memory is not released by ARC.
+            You can use weak or unowned references to avoid(break) retain cycles.
+            You can avoid retain cycles in closures using [weak self]
          What is a Retain cycle ? How to Solve ?
-         A retain cycle happens when two objects keep strong references to each other, so they don’t get removed from memory.
-         Solution: Use weak or unowned to fix it.
+            A retain cycle happens when two objects keep strong references to each other, so they don’t get removed from memory.
+            Solution: Use weak or unowned to fix it.
          How do you break strong reference cycles in closures?
-         You can break strong reference cycles in closures using [weak self] or [unowned self].
+            You can break strong reference cycles in closures using [weak self] or [unowned self].
          
          Dependency Injection?
          - Dependency Injection is a software design pattern.
          - Dependency Injection means providing a class with the required objects from outside classes,
          making the code flexible and easy to test.
          Dependency Injection Types in Swift?
-         1. Initializer Injection (Constructor Injection) - Most preferred (Strict & Reliable).
-         2.Property Injection - Useful for optional dependencies.
-         3.Method Injection - Useful for dynamic dependencies.
+            1. Initializer Injection (Constructor Injection) - Most preferred (Strict & Reliable).
+            2.Property Injection - Useful for optional dependencies.
+            3.Method Injection - Useful for dynamic dependencies.
          Why Use Dependency Injection?
-         1. Ease to write a unit test code
-         2. Flexibility
-         3. Readability
-         4. Reusability
+            1. Ease to write a unit test code
+            2. Flexibility
+            3. Readability
+            4. Reusability
          
          
          */
