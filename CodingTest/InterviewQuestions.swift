@@ -40,7 +40,7 @@ class InterviewQuestions: UIViewController {
          20. What is the difference between .frame() and .padding() in SwiftUI?
          
          21. Diff between Frame and Bound?
-         22. Explain LazyVStack and LazyHStack.
+         22. Explain LazyVStack and LazyHStack?
          23. How does @Namespace work in SwiftUI animations?
          24. What is ViewModifier and when should you use it?
          25. How does onAppear and onDisappear work in SwiftUI?
@@ -171,7 +171,7 @@ class InterviewQuestions: UIViewController {
          29. What is an EnvironmentObject in SwiftUI?
          30. What is the difference between NavigationView and NavigationStack?
          
-         31. How does LazyVStack and LazyHStack work?
+         31. What is Enum and explain it?
          32. How does @Namespace help in SwiftUI animations?
          33. What is ViewModifier, and how is it used?
          34. What is MatchedGeometryEffect, and how does it work?
