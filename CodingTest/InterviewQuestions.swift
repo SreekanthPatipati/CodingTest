@@ -181,7 +181,7 @@ class InterviewQuestions: UIViewController {
          37. What is Combine in Swift?
          38. What is the difference between UserDefaults, Keychain, and CoreData?
          39. How do you store and retrieve data using UserDefaults?
-         40. What is the difference between synchronous and asynchronous programming?
+         40. What are generics in Swift?
          
          41. What is a singleton pattern, and how do you implement it?
          42. What is Codable, and how do you use it in Swift?
