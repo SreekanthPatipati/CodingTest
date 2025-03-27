@@ -27,7 +27,7 @@ class InterviewQuestions: UIViewController {
          9. What is the difference between some and any in Swift?
          10. How does Codable work in Swift?
          
-         11. What is Opaque Type (some) vs Existential Type (any)?
+         11. Type casting?
          12. Explain actor, nonisolated, and Task in Swift Concurrency.
          13. What is the difference between Result<T, Error> and throws?
          14. How does KeyPath work in Swift?
