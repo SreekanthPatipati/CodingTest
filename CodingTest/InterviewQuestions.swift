@@ -30,7 +30,7 @@ class InterviewQuestions: UIViewController {
          11. Type casting?
          12. Explain actor, nonisolated, and Task in Swift Concurrency.
          13. What is the difference between Result<T, Error> and throws?
-         14. How does KeyPath work in Swift?
+         14. Type annotation?
          15. What is @propertyWrapper and how is it used?
          
          16. What is the difference between UIViewController (UIKit) and View (SwiftUI)?
