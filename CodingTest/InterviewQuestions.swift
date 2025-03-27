@@ -167,7 +167,7 @@ class InterviewQuestions: UIViewController {
          
          26. What is an actor in Swift?
          27. How does Task.detached {} work?
-         28. What is the difference between UIViewController and View in SwiftUI?
+         28. Type Safety?
          29. What is an EnvironmentObject in SwiftUI?
          30. What is the difference between NavigationView and NavigationStack?
          
