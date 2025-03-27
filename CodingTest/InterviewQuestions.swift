@@ -39,7 +39,7 @@ class InterviewQuestions: UIViewController {
          19. How does List work in SwiftUI?
          20. What is the difference between .frame() and .padding() in SwiftUI?
          
-         21. How does NavigationStack differ from NavigationView?
+         21. Diff between Frame and Bound?
          22. Explain LazyVStack and LazyHStack.
          23. How does @Namespace work in SwiftUI animations?
          24. What is ViewModifier and when should you use it?
