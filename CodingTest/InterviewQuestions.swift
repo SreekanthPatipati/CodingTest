@@ -168,7 +168,7 @@ class InterviewQuestions: UIViewController {
          26. What is an actor in Swift?
          27. How does Task.detached {} work?
          28. Type Safety?
-         29. What is an EnvironmentObject in SwiftUI?
+         29. What is Observer Pattern in Swift?
          30. What is the difference between NavigationView and NavigationStack?
          
          31. What is Enum and explain it?
