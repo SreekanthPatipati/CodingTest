@@ -41,7 +41,7 @@ class InterviewQuestions: UIViewController {
          
          21. Diff between Frame and Bound?
          22. Explain LazyVStack and LazyHStack?
-         23. What is completion Handler and explain it?
+         23. What is reuse Identifiers?
          24. What is ViewModifier and when should you use it?
          25. How does onAppear and onDisappear work in SwiftUI?
          
