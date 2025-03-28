@@ -22,7 +22,7 @@ class InterviewQuestions: UIViewController {
          5. What is the difference between struct and class?
          
          6. What are higher-order functions (map, filter, reduce, compactMap, flatMap)?
-         7. Explain the @escaping keyword in Swift closures.
+         7. What is Closure and Types of closures?.
          8. What is rethrows in Swift?
          9. What is the difference between some and any in Swift?
          10. What is Guard Statement with example?
@@ -91,13 +91,13 @@ class InterviewQuestions: UIViewController {
          62. What is a retain cycle?
          63. What is deinit in Swift?
          64. Explian Regular Expression?
-         65. How does Capture Lists work in Swift closures?
+         65. What is delegate in Swift?
          
          66. How does Memory Graph Debugger help in iOS development?
          67. What is the difference between strong, weak, and unowned references?
          68. OOP concepts?
          79. How do retain cycles happen with closures?
-         70. What is Escaping Closures and how do they affect memory?
+         70. Diff between atomic and non-atomic?
          
          71. How does @MainActor affect memory usage?
          72. How does Swift’s reference counting work under the hood?
