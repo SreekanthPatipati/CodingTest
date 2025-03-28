@@ -28,7 +28,7 @@ class InterviewQuestions: UIViewController {
          10. What is Guard Statement with example?
          
          11. Type casting?
-         12. Explain actor, nonisolated, and Task in Swift Concurrency.
+         12. Diffs between Value Semantics and Reference Semantics?
          13. What is the difference between Result<T, Error> and throws?
          14. Type annotation?
          15. What is @propertyWrapper and how is it used?
