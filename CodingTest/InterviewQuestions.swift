@@ -64,7 +64,7 @@ class InterviewQuestions: UIViewController {
          40. How do UIViewController Lifecycle methods work?
          
          41. What is the difference between Intrinsic Content Size and Content Hugging Priority?
-         42. How does Compositional Layout work in UICollectionView?
+         42. Diff between delegate and KVO?
          43. Explain Spritekit and Scenekit in Swift?
          44. What is the Coordinator Pattern in UIKit navigation?
          45. What is UIGestureRecognizer and how does it work?
