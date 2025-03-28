@@ -39,7 +39,7 @@ class InterviewQuestions: UIViewController {
          19. How does List work in SwiftUI?
          20. What is the difference between .frame() and .padding() in SwiftUI?
          
-         21. Diff between Frame and Bound?
+         21. What are the Control transfer statements?
          22. Explain LazyVStack and LazyHStack?
          23. What is reuse Identifiers?
          24. Collection Types in Swift?
