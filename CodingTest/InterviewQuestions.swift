@@ -49,7 +49,7 @@ class InterviewQuestions: UIViewController {
          27. What are MatchedGeometryEffect and @Namespace used for?
          28. How do you optimize performance in a large SwiftUI list?
          29. How does SwiftUI handle dependency injection?
-         30. Can SwiftUI work without Combine? Why or why not?
+         30. What is Notification center in Swift?
          
          31. What is the difference between UIView and UIViewController?
          32. How does Auto Layout work in UIKit?
@@ -78,7 +78,7 @@ class InterviewQuestions: UIViewController {
          51. What is async/await in Swift?
          52. How does Task {} work in Swift?
          53. What is the difference between TaskGroup and AsyncStream?
-         54. What is Combine and how does it handle async data?
+         54. What is Property?
          55. How does URLSession handle background downloads?
          
          56. What is actor and why is it important in Swift?
