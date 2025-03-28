@@ -207,6 +207,9 @@ class InterviewQuestions: UIViewController {
          59. How do you debug a crashing iOS app?
          60. What are the best practices for logging in Swift?
          
+         61. Explain optional chaining and optional binding in Swift?
+         62. Explain Key-Value Coding (KVC) and Key-Value Observing (KVO) in Swift?
+         63. What is a Silent Notification?
          
          
          1. What is Dependency Injection (DI) in Swift, and why is it important in software development?
