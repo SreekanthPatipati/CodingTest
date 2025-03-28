@@ -179,8 +179,8 @@ class InterviewQuestions: UIViewController {
          
          36. What is Core Data, and how do you use it?
          37. What is Combine in Swift?
-         38. What is the difference between UserDefaults, Keychain, and CoreData?
-         39. How do you store and retrieve data using UserDefaults?
+         38. What is the difference between UserDefaults, Keychain, and CoreData with Example?
+         39. Access modifires in Swift?
          40. What are generics in Swift?
          
          41. What is a singleton pattern, and how do you implement it?
