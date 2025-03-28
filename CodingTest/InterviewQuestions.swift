@@ -25,7 +25,7 @@ class InterviewQuestions: UIViewController {
          7. Explain the @escaping keyword in Swift closures.
          8. What is rethrows in Swift?
          9. What is the difference between some and any in Swift?
-         10. How does Codable work in Swift?
+         10. What is Guard Statement with example?
          
          11. Type casting?
          12. Explain actor, nonisolated, and Task in Swift Concurrency.
