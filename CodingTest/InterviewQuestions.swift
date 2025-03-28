@@ -102,7 +102,7 @@ class InterviewQuestions: UIViewController {
          71. How does @MainActor affect memory usage?
          72. How does Swift’s reference counting work under the hood?
          73. What is Result Type in Swift?
-         74. What is MVC and how is it used in iOS?
+         74. Diff between Reference type and Value type?
          75. What is a Singleton in Swift?
          
          76. What is Protocol-Oriented Programming (POP)?
