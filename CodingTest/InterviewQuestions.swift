@@ -30,7 +30,7 @@ class InterviewQuestions: UIViewController {
          11. What is Type Casting and types in Swift?
          12. Diffs between Value Semantics and Reference Semantics?
          13. What is the difference between Result<T, Error> and throws?
-         14. Type annotation?
+         14. What is Type annotation?
          15. What is @propertyWrapper and how is it used?
          
          16. What is the difference between UIViewController (UIKit) and View (SwiftUI)?
