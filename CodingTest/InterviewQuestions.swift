@@ -27,7 +27,7 @@ class InterviewQuestions: UIViewController {
          9. What is the difference between some and any in Swift?
          10. What is Guard Statement with example?
          
-         11. Type casting?
+         11. What is Type Casting and types in Swift?
          12. Diffs between Value Semantics and Reference Semantics?
          13. What is the difference between Result<T, Error> and throws?
          14. Type annotation?
