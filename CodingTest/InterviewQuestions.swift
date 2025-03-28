@@ -172,7 +172,7 @@ class InterviewQuestions: UIViewController {
          30. What is the difference between NavigationView and NavigationStack?
          
          31. What is Enum and explain it?
-         32. How does @Namespace help in SwiftUI animations?
+         32. Types of Data Bases?
          33. What is ViewModifier, and how is it used?
          34. What is MatchedGeometryEffect, and how does it work?
          35. How do you optimize SwiftUI lists for performance?
