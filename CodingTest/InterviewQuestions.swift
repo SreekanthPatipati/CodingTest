@@ -21,7 +21,7 @@ class InterviewQuestions: UIViewController {
          4. What are computed properties and lazy properties?
          5. What is the difference between struct and class?
          
-         6. What are higher-order functions (map, filter, reduce)?
+         6. What are higher-order functions (map, filter, reduce, compactMap, flatMap)?
          7. Explain the @escaping keyword in Swift closures.
          8. What is rethrows in Swift?
          9. What is the difference between some and any in Swift?
@@ -65,7 +65,7 @@ class InterviewQuestions: UIViewController {
          
          41. What is the difference between Intrinsic Content Size and Content Hugging Priority?
          42. How does Compositional Layout work in UICollectionView?
-         43. How do you handle memory leaks in UIKit?
+         43. Explain Spritekit and Scenekit in Swift?
          44. What is the Coordinator Pattern in UIKit navigation?
          45. What is UIGestureRecognizer and how does it work?
          
@@ -90,7 +90,7 @@ class InterviewQuestions: UIViewController {
          61. What is ARC (Automatic Reference Counting)?
          62. What is a retain cycle?
          63. What is deinit in Swift?
-         64. How does Swift prevent memory leaks?
+         64. Explian Regular Expression?
          65. How does Capture Lists work in Swift closures?
          
          66. How does Memory Graph Debugger help in iOS development?
@@ -101,7 +101,7 @@ class InterviewQuestions: UIViewController {
          
          71. How does @MainActor affect memory usage?
          72. How does Swift’s reference counting work under the hood?
-         73. How do you detect and fix memory leaks in Swift?
+         73. What is Result Type in Swift?
          74. What is MVC and how is it used in iOS?
          75. What is a Singleton in Swift?
          
@@ -137,24 +137,24 @@ class InterviewQuestions: UIViewController {
          
          1. What is the difference between escaping and non-escaping closures?
          2. What is a completion handler, and how do you use it?
-         3. What is the difference between map, compactMap, and flatMap?
+         3. Diff types of DataStructures? and explain it?
          4. What is a keypath in Swift?
          5. What is the purpose of the defer keyword in Swift?
          
          6. What is the difference between a protocol and an abstract class?
          7. What is polymorphism in Swift?
          8. What is the purpose of mutating in Swift protocols?
-         9. What is the difference between weak, unowned, and strong references?
+         9. Diff between == and ===?
          10. How do you create a protocol with associated types?
          
          11. What is protocol extension in Swift?
          12. What is a static property vs a class property in Swift?
          13. What is an opaque type in Swift?
          14. How do you implement delegation in Swift?
-         15. What is a retain cycle, and how do you prevent it?
+         15. What is ternary conditional operator? give me example?
          
          16. How do you break strong reference cycles in closures?
-         17. What is a memory leak in Swift?
+         17. What is a memory leak in Swift and How do you debug memory leaks?
          18. How do you use the Memory Graph Debugger in Xcode?
          19. What is the deinit method in Swift?
          20. What is an autorelease pool in Swift?
@@ -202,7 +202,7 @@ class InterviewQuestions: UIViewController {
          55. How do you write UI tests in Xcode?
          
          56. What is the purpose of code coverage in testing?
-         57. How do you debug memory leaks in Swift?
+         57. Explian Size Classes in Swift?
          58. What is print() debugging, and why should you avoid it?
          59. How do you debug a crashing iOS app?
          60. What are the best practices for logging in Swift?
