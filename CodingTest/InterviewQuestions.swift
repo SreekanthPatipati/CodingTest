@@ -34,8 +34,8 @@ class InterviewQuestions: UIViewController {
          15. What is @propertyWrapper and how is it used?
          
          16. What is the difference between UIViewController (UIKit) and View (SwiftUI)?
-         17. How does @State, @Binding, and @ObservedObject work in SwiftUI?
-         18. What is EnvironmentObject in SwiftUI?
+         17. How does @State, @Binding, @ObservedObject, and @EnvironmentObject work in SwiftUI?
+         18. What is String Interpolation in Swift?
          19. How does List work in SwiftUI?
          20. What is the difference between .frame() and .padding() in SwiftUI?
          
