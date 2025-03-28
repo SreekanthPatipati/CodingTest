@@ -144,7 +144,7 @@ class InterviewQuestions: UIViewController {
          6. What is the difference between a protocol and an abstract class?
          7. What is polymorphism in Swift?
          8. What is the purpose of mutating in Swift protocols?
-         9. Diff between == and ===?
+         9. Diff between ==(Equality Operator) and ===(Identity Operator)?
          10. How do you create a protocol with associated types?
          
          11. What is protocol extension in Swift?
