@@ -174,7 +174,7 @@ class InterviewQuestions: UIViewController {
          31. What is Enum and explain it?
          32. Types of Data Bases?
          33. What is ViewModifier, and how is it used?
-         34. What is MatchedGeometryEffect, and how does it work?
+         34. App life cycles or IOS Application states?
          35. How do you optimize SwiftUI lists for performance?
          
          36. What is Core Data, and how do you use it?
