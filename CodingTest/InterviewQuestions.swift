@@ -156,7 +156,7 @@ class InterviewQuestions: UIViewController {
          16. How do you break strong reference cycles in closures?
          17. What is a memory leak in Swift and How do you debug memory leaks?
          18. How do you use the Memory Graph Debugger in Xcode?
-         19. What is the deinit method in Swift?
+         19. Diff between Swift and Objective-C?
          20. What is an autorelease pool in Swift?
          
          21. What is copy-on-write in Swift?
