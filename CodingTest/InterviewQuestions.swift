@@ -95,7 +95,7 @@ class InterviewQuestions: UIViewController {
          
          66. How does Memory Graph Debugger help in iOS development?
          67. What is the difference between strong, weak, and unowned references?
-         68. How does lazy var affect memory management?
+         68. OOPS concepts?
          79. How do retain cycles happen with closures?
          70. What is Escaping Closures and how do they affect memory?
          
