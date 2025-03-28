@@ -18,7 +18,7 @@ class InterviewQuestions: UIViewController {
          1. What are Optionals in Swift?
          2. What is the difference between var and let?
          3. How does Swift handle memory management?
-         4. What are computed properties and lazy properties?
+         4. What is Property? What are computed properties and lazy properties?
          5. What is the difference between struct and class?
          
          6. What are higher-order functions (map, filter, reduce, compactMap, flatMap)?
@@ -78,7 +78,7 @@ class InterviewQuestions: UIViewController {
          51. What is async/await in Swift?
          52. How does Task {} work in Swift?
          53. What is the difference between TaskGroup and AsyncStream?
-         54. What is Property?
+         54. What is PushNotification and explain them?
          55. What is Datatype, and Types and Explain it?
          
          56. What is actor and why is it important in Swift?
