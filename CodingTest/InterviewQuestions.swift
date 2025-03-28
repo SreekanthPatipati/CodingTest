@@ -66,7 +66,7 @@ class InterviewQuestions: UIViewController {
          41. What is the difference between Intrinsic Content Size and Content Hugging Priority?
          42. Diff between delegate and KVO?
          43. Explain Spritekit and Scenekit in Swift?
-         44. What is the Coordinator Pattern in UIKit navigation?
+         44. Diff between REST and SOAP?
          45. What is UIGestureRecognizer and how does it work?
          
          46. What is DispatchQueue in Swift?
@@ -111,7 +111,7 @@ class InterviewQuestions: UIViewController {
          79. How do you handle State Management in SwiftUI?
          80. What is SOLID principle in Swift?
          
-         81. What is Coordinator Pattern?
+         81. Diff between SQLite and CoreData?
          82. What is TCA (The Composable Architecture)?
          83. What are Reducers and Effects in SwiftUI architecture?
          84. How do you scale a SwiftUI app for a large team?
