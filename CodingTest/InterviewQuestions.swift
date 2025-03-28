@@ -79,7 +79,7 @@ class InterviewQuestions: UIViewController {
          52. How does Task {} work in Swift?
          53. What is the difference between TaskGroup and AsyncStream?
          54. What is Property?
-         55. How does URLSession handle background downloads?
+         55. What is Datatype, and Types and Explain it?
          
          56. What is actor and why is it important in Swift?
          57. How does Task.detached work?
@@ -187,7 +187,7 @@ class InterviewQuestions: UIViewController {
          42. What is Codable, and how do you use it in Swift?
          43. What is dependency injection in Swift?
          44. What is the difference between @Published and @StateObject?
-         45. How do you make a network request using URLSession?
+         45. How do you make a network request using URLSession? and How does URLSession handle background downloads?
          
          46. What is URLSessionDelegate, and how is it used?
          47. What is WebSockets, and how does Swift handle them?
