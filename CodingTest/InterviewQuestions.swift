@@ -130,10 +130,10 @@ class InterviewQuestions: UIViewController {
          95. What are generics in Swift?
          
          96. What is the difference between Array, Set, and Dictionary?
-         97. How do you define a function in Swift?
+         97. What is Exception handling or Error handling?
          98. What is the difference between inout parameters and return values?
          99. How do trailing closures work in Swift?
-         100. What is an autoclosure in Swift?
+         100.What is an autoclosure in Swift?
          
          1. What is the difference between escaping and non-escaping closures?
          2. What is a completion handler, and how do you use it?
