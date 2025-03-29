@@ -63,7 +63,7 @@ class InterviewQuestions: UIViewController {
          39. What is the difference between pushViewController and presentViewController?
          40. How do UIViewController Lifecycle methods work?
          
-         41. What is the difference between Intrinsic Content Size and Content Hugging Priority?
+         41. What is the difference between Intrinsic Content Size, Content Hugging Priority and Content Compression Resistance?
          42. Diff between delegate and KVO?
          43. Explain Spritekit and Scenekit in Swift?
          44. Diff between REST and SOAP?
