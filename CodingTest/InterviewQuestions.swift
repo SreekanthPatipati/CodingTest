@@ -309,6 +309,12 @@ class InterviewQuestions: UIViewController {
             3. Readability
             4. Reusability
          
+         Intrinsic Content Size
+            natural size based on its content
+         Content Hugging Priority
+            Stops a view from growing bigger than its content(Don’t stretch)
+         Content Compression Resistance Priority
+            Stops a view from shrinking smaller than its content(Don’t squish)
          
          */
         
