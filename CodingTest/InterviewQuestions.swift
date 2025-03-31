@@ -316,6 +316,9 @@ class InterviewQuestions: UIViewController {
          Content Compression Resistance Priority
             Stops a view from shrinking smaller than its content(Don’t squish)
          
+         What is Responder Chain in UIKit?
+            we need to handle - touches, gestures, keyboard events, and other input events
+         
          */
         
         
