@@ -201,6 +201,16 @@ class ViewController: UIViewController {
           
         print(sortedWords)
         
+        let arr5 = [1, 2, 3, 4, 5, 1, 2]
+        var uniqueNumbers: [Int] = []
+        for num in arr5 {
+            if !uniqueNumbers.contains(num) {
+                uniqueNumbers.append(num)
+            }
+        }
+        print(uniqueNumbers) // Output: [1, 2, 3, 4, 5]
+
+        
         
     }
 
