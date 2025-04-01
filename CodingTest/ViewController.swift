@@ -212,6 +212,18 @@ class ViewController: UIViewController {
 
         
         
+        var values5 = ["1", "Hello", "3", "nil", "5"]
+        var filteredValues: [String] = []
+
+        for value in values5 {
+            if value != "nil" {
+                filteredValues.append(value)
+            }
+        }
+        print(filteredValues) // Output: ["1", "Hello", "3", "5"]
+
+
+        
     }
 
 
