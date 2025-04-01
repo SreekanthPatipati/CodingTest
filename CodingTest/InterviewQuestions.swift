@@ -322,6 +322,14 @@ class InterviewQuestions: UIViewController {
          What is Main Thread and why is it important?
             UI-related tasks
             The main thread is responsible for handling touch events, animations, and rendering
+         
+         What is NSOperationQueue?
+            Concurrency Management – Runs multiple operations concurrently.
+            Dependency Management – Ensures tasks execute in a specific order.
+            Priority Control – Assign different priorities to tasks.
+            Thread Safety – NSOperationQueue is thread-safe.
+         
+         
          */
         
         
