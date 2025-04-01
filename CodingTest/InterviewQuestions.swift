@@ -319,6 +319,9 @@ class InterviewQuestions: UIViewController {
          What is Responder Chain in UIKit?
             we need to handle - touches, gestures, keyboard events, and other input events
          
+         What is Main Thread and why is it important?
+            UI-related tasks
+            The main thread is responsible for handling touch events, animations, and rendering
          */
         
         
