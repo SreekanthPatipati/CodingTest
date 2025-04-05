@@ -14,149 +14,230 @@ class PlayGround: UIViewController {
 
         // Do any additional setup after loading the view.
         
-
-        var greeting = "Hello, playground"
-
-
-        var numbers = [1, 3, 10, 2, 5]
-        let number: [Int?] = [1, nil, 3, nil, 5, 6, nil, 8]
-        var filteredNumbers: [Int] = []
-
-        for num in number {
-            if let num = num {
-                filteredNumbers.append(num)
+        // MARK: - remove the nil values
+        var userArray = ["1", "Hello", "3", "nil", "5"]
+        var stringArray:[String] = []
+        
+        for valu in userArray { //["1", "Hello", "3", "nil", "5"]
+            if valu != "nil" {
+                stringArray.append(valu)
             }
         }
-        print(filteredNumbers.sorted(by: >))
+        print(stringArray) //["1", "Hello", "3", "5"]
 
-
-        let arr = ["1","2","3","Sree","Kanth"]
-        var filterarray: [String] = []
-
-        for hhh in arr {
-            if Int(hhh) == nil { // != nil
-                filterarray.append(hhh)
+        
+        // MARK: - filter String words only
+        var userArrayValue = ["1","2","3","Sree","Kanth"]
+        for valu in userArrayValue { //["1","2","3","Sree","Kanth"]
+            if Int(valu) == nil {
+                stringArray.append(valu)
             }
         }
+        print(stringArray) //["Sree", "Kanth"]
 
-
-
-
-
-        var hig = numbers[0]
-
-        for hi in numbers {
-            if hi > hig {
-                hig = hi
+        // MARK: - filter Int Values words only
+        for valu in userArrayValue { //["1","2","3","Sree","Kanth"]
+            if Int(valu) != nil {
+                stringArray.append(valu)
             }
         }
-        print("------>: \(hig)")
+        print(stringArray) //["1", "2", "3"]
 
-        var low = numbers[0]
-
-        for low in numbers {
-            if low < hig {
-                hig = low
+        // MARK: - remove nil value
+        var userArrayNil = ["1", "Hello", "3", nil, "5"]
+        for valu in userArrayNil { //["1", "Hello", "3", nil, "5"]
+            if let strs = valu {
+                stringArray.append(strs)
             }
         }
+        print(stringArray) //["1", "Hello", "3", "5"]
 
-        print("======>: \(low)")
-
-
-        var mini11 = Int.max
-        var mini22 = Int.max
-
-        for h in numbers {
-            if h < mini11 {
-                mini22 = mini11
-                mini11 = h
-            }else if h < mini22 && h != mini11 {
-                mini22 = h
+        // MARK: - remove nil values
+        var userNumbers = [1, nil, 3, nil, 5, 6, nil, 8]
+        var integerArray:[Int] = []
+        
+        for valu in userNumbers { //[1, nil, 3, nil, 5, 6, nil, 8]
+            if let num = valu {
+                integerArray.append(num)
             }
         }
+        print(integerArray) //[1, 3, 5, 6, 8]
+        
+        // MARK: - reverse palindrom
+        var reversArray = ["h", "e", "l", "l", "o"]
+        for valu in reversArray { //["h", "e", "l", "l", "o"]
+            stringArray.insert(valu, at: 0)
+        }
+        print(stringArray) //["o", "l", "l", "e", "h"]
+        
+        // MARK: - count the array
+        var countArray = ["apple", "banana", "apple", "orange", "banana", "banana"]
+        var stringCount:[String: Int] = [:]
+      
+        for valu in countArray { // ["apple", "banana", "apple", "orange", "banana", "banana"]
+            stringCount[valu, default: 0] += 1
+        }
+        print(stringCount) // ["apple": 2, "orange": 1, "banana": 3]
 
-        print("====mini22==>: \(mini22)")
+        // MARK: - Longest word and Shortest word
+        var longAndShortArray = ["Swift", "Programming", "HigherOrderFunctions", "Sree"]
+        var stringLenth = longAndShortArray[0]
+        
+        for valu in longAndShortArray { // ["Swift", "Programming", "HigherOrderFunctions", "Sree"]
+            if valu.count > stringLenth.count { // < - Sree
+                stringLenth = valu
+            }
+        }
+        print(stringLenth) // HigherOrderFunctions
 
-
-        for i in 0..<numbers.count {
-            for j in 0..<numbers.count - i - 1 {
-                if numbers[j] < numbers[j+1] {
-                    let aaa = numbers[j]
-                    numbers[j] = numbers[j+1]
-                    numbers[j+1] = aaa
+        
+        // MARK: - Ascending order and desending order
+        var sortingArray = [9,8,1,2,4,5,6,7]
+        for i in 0..<sortingArray.count { // [9,8,1,2,4,5,6,7]
+            for j in 0..<sortingArray.count - i - 1 {
+                if sortingArray[j] > sortingArray[j+1] {
+                    let temp = sortingArray[j]
+                    sortingArray[j] = sortingArray[j+1]
+                    sortingArray[j+1] = temp
                 }
             }
         }
-        print("====numbers==>: \(numbers)")
+        print(sortingArray) // [1, 2, 4, 5, 6, 7, 8, 9]
 
+        
+        // MARK: - Higest Number and Lowest Number
+        var higherNumberArray = [9,8,1,2,4,5,6,7]
+        var highestNumber = higherNumberArray[0]
 
-        for i in 0..<numbers.count {
-            numbers[i] *= 2
-        }
-        print("====numbers * 2 ==>: \(numbers)")
-
-        for i in 0..<numbers.count {
-            numbers[i] = numbers[i] * numbers[i]
-        }
-
-        print("====numbers * Square ==>: \(numbers)")
-
-        var numb = [1, 3, 10, 2, 5]
-        var even:[Int] = []
-
-        for aaa in numb {
-            if aaa % 2 == 0 {
-                even.append(aaa)
+        for valu in higherNumberArray { // [9,8,1,2,4,5,6,7]
+            if valu > highestNumber { // < lower Number.
+                highestNumber = valu
             }
         }
-        print("====even ==>: \(even)")
+        print(highestNumber) // 9
 
-        var numbOdd = [1, 3, 10, 2, 5]
-        var evenOdd:[Int] = []
-        for odd in numbOdd {
-            if odd % 2 != 0 {
-                evenOdd.append(odd)
+
+        // MARK: - Second Highest and Second Lowest number
+        var secondHightAndLowestNumberArray = [9,8,1,2,4,5,6,7]
+        var minimumNum1 = Int.min
+        var minimumNum2 = Int.min
+
+        for valu in secondHightAndLowestNumberArray { // [9,8,1,2,4,5,6,7]
+            if valu > minimumNum1 {
+                minimumNum2 = minimumNum1
+                minimumNum1 = valu
+            }else if valu > minimumNum2 && valu != minimumNum1{
+                minimumNum2 = valu
             }
         }
-        print("====odd ==>: \(evenOdd)")
+        print(minimumNum2) // 8 or 2
 
-
-        //////////////////////////////////////
-
-        let ccc = ["1","2","3","Sree","Kanth"]
-
-        var aaaa: [Int] = []
-        var nnnn: [String] = []
-
-
-        for iii in ccc {
-            if Int(iii) == nil {
-                nnnn.append(iii)
-            }
-            
-            
-            
-            if let numbers = Int(iii){
-                aaaa.append(numbers)
+        
+        // MARK: - remove duplicate values
+        var duplicateArray = [1, 2, 3, 4, 5, 1, 2]
+        var filterArray1:[Int] = []
+        var filterArray2:[Int] = []
+        var filterArray3:[Int] = []
+        
+        for valu in duplicateArray { // [1, 2, 3, 4, 5, 1, 2]
+            if !filterArray1.contains(valu) {
+                filterArray1.append(valu)
+            }else {
+                filterArray2.append(valu)
             }
         }
 
+        print(filterArray1) // [1, 2, 3, 4, 5]
+        print(filterArray2) // [1, 2]
 
-        print("------------->: \(aaaa)")
-        print("------------->: \(nnnn)")
+        for valu in filterArray1 {
+            if !filterArray2.contains(valu) {
+                filterArray3.append(valu)
+            }
+        }
+        print(filterArray3) // [3, 4, 5]
 
+        
+        // MARK: - addition numbers
+        var sumArray = [1, 3, 10, 2, 5]
+        var sum = 0
 
+        for valu in sumArray { // [1, 3, 10, 2, 5]
+            sum += valu
+        }
+        print(sum) // 21
 
+        
+        // MARK: - multiply the numbers
+        var multiplyArray = [1, 3, 10, 2, 5]
 
+        for valu in 0..<multiplyArray.count { // [1, 3, 10, 2, 5]
+            multiplyArray[valu] *= 2
+        }
+        print(multiplyArray) // [2, 6, 20, 4, 10]
+
+        
+        // MARK: - Square the number
+        var multiplyArray2 = [1, 3, 10, 2, 5]
+
+        for valu in 0..<multiplyArray2.count { // [1, 3, 10, 2, 5]
+            multiplyArray2[valu] = multiplyArray2[valu] * multiplyArray2[valu]
+        }
+        print(multiplyArray2) // [1, 9, 100, 4, 25]
+
+        
+        // MARK: - Even numbers
+        var numbersArray = [1, 3, 10, 2, 5]
+        var evenNumber:[Int] = []
+        for valu in numbersArray { // [1, 3, 10, 2, 5]
+            if valu % 2 == 0 {
+                evenNumber.append(valu)
+            }
+        }
+        print(evenNumber) // [10, 2]
+
+        
+        // MARK: - Odd numbers
+        var oddNumber:[Int] = []
+        for valu in numbersArray { // [1, 3, 10, 2, 5]
+            if valu % 2 != 0 {
+                oddNumber.append(valu)
+            }
+        }
+        print(oddNumber) // [1, 3, 5]
+
+        var evenOddNumbers:[String:[Int]] = ["Even": evenNumber,"Odd": oddNumber]
+        print(evenOddNumbers) // ["Odd": [1, 3, 5], "Even": [10, 2]]
+      
+
+        // MARK: - Swap the numbers
         var swapNumbers = [1,2,4,5,6,7,8,9]
-        for i in stride(from: 0, to: swapNumbers.count - 1, by: 2) {
-            swapNumbers.swapAt(i, i + 2)
+        for i in stride(from: 0, to: swapNumbers.count - 1, by: 2) { // [1,2,4,5,6,7,8,9]
+            swapNumbers.swapAt(i, i+1)
         }
-        print("-------swapNumbers---------->:\(swapNumbers)")
+        print(swapNumbers) // [2, 1, 5, 4, 7, 6, 9, 8]
 
+      
+        // MARK: - Palindrom
+        var palindromString = "madam"
+        var palindromStr = ""
+        
+        for valu in palindromString { // "madam"
+            palindromStr = String(valu) + palindromStr
+        }
+        print(palindromStr) // "madam"
 
+        // MARK: - Find the string value
+        var greeting = "Helloplayground"
+        var result = greeting.replacingOccurrences(of: "Hello", with: "")
+        print(result) // playground
 
-
+        // MARK: - Singletone Example
+        
+        
+        // MARK: - Enum Example
+        
+        
 
 
     }

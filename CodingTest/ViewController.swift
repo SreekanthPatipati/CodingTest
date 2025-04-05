@@ -13,7 +13,31 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        // MARK: - higher-order functions
         
+        var userArray = ["1", "Hello", "3", "nil", "5"]
+        var userArrayValue = ["1","2","3","Sree","Kanth"]
+        var userArrayNil = ["1", "Hello", "3", nil, "5"]
+        var userNumbers = [1, nil, 3, nil, 5, 6, nil, 8]
+        var reversArray = ["h", "e", "l", "l", "o"]
+        var countArray = ["apple", "banana", "apple", "orange", "banana", "banana"]
+        var longAndShortArray = ["Swift", "Programming", "HigherOrderFunctions", "Sree"]
+        var sortingArray = [9,8,1,2,4,5,6,7]
+        var higherNumberArray = [9,8,1,2,4,5,6,7]
+        var secondHightAndLowestNumberArray = [9,8,1,2,4,5,6,7]
+        var duplicateArray = [1, 2, 3, 4, 5, 1, 2]
+        var sumArray = [1, 3, 10, 2, 5]
+        var multiplyArray = [1, 3, 10, 2, 5]
+        var multiplyArray2 = [1, 3, 10, 2, 5]
+        var numbersArray = [1, 3, 10, 2, 5]
+        var swapNumbers = [1,2,4,5,6,7,8,9]
+        var palindromString = "madam"
+        var greeting = "Helloplayground"
+        
+        
+        
+        
+        /*
         var greeting = "Hello, playground"
 
         var a = [1,2,3,4,5]
@@ -25,10 +49,6 @@ class ViewController: UIViewController {
         var array55 = [[2,3],[3,4],[5,6]]
 
         var sum = a.reduce(0, +)
-        var sum2 = 0
-        for nn in a {
-            sum2 += nn
-        }
         var asc = a.sorted(by: >)
         var desc = a.sorted(by: <)
         var highestNumber = a.sorted(by: >).dropLast().first
@@ -75,27 +95,6 @@ class ViewController: UIViewController {
         var numbersSet22 = Array(Set(numbersSet))
 
 
-
-        var names = ["apple", "banana", "apple", "orange", "banana", "banana"]
-        var counts: [String: Int] = [:]
-        for name in names {
-            counts[name, default: 0] += 1
-        }
-        print(counts) // ["apple": 2, "banana": 3, "orange": 1]
-
-
-
-        var words = ["Swift", "Programming", "HigherOrderFunctions", "Sree"]
-        // Get longest word
-        var longestWord = ""
-
-        for word in words {
-            if word.count > longestWord.count {
-                longestWord = word
-            }
-        }
-
-
         var namese = ["Alice", "Bob", "Charlie"]
         for (index, name) in namese.enumerated() {
             print("----> \(index): \(name)")
@@ -110,62 +109,9 @@ class ViewController: UIViewController {
         // Remove last 2 elements
         var withoutLastTwo = numbers.dropLast(2)
         print(withoutLastTwo) // [1, 2, 3]
-
-
-
-        var commonElements55: [Int] = []
-        for numb in arr1 {
-            if arr2.contains(numb){
-                commonElements55.append(numb)
-            }
-        }
-
-        var uniqueElements: [Int] = []
-        for n in arr1 {
-            if !arr2.contains(n) {
-                uniqueElements.append(n)
-            }
-        }
-
-        for nn in arr2 {
-            if !arr1.contains(nn) {
-                uniqueElements.append(nn)
-            }
-        }
-
-        var s = ["h", "e", "l", "l", "o"]
-        var reversedArray: [String] = []
-        for char in s {
-            reversedArray.insert(char, at: 0) // Insert each element at the beginning
-        }
-        print(reversedArray) // Output: ["o", "l", "l", "e", "h"]
-
-
-        // reversed latters
-        var reversedArraylatters = ""
-        for values in s {
-            reversedArraylatters = String(values) + reversedArraylatters
-        }
-
-        //Single word
-        var word = ""
-        for values in s {
-            word += String(values)
-        }
-
-
-
-
-
+        
         var yy = "madam"
         var yyyy = String(yy.reversed())
-
-        var reversedString = ""
-        for char in yy {
-            reversedString = String(char) + reversedString
-        }
-
-
 
         var arr11 = [1, 2, 3, 4, 5]
         var arr22 = [3, 4, 5, 6, 7]
@@ -173,57 +119,21 @@ class ViewController: UIViewController {
         var pnr = Array(Set(arr11).intersection(Set(arr22)))
         var pnr22 = Array(Set(arr11).symmetricDifference(Set(arr22)))
 
-        var comm2:[Int] = []
-
-        for cc in arr11 {
-            if arr22.contains(cc) {
-                comm2.append(cc)
-            }
-        }
-
+        
+        
         var allSatisfy = [2, 4, 6, 8, 10]
         // Check if all numbers are even
         var allEven = allSatisfy.allSatisfy { $0 % 2 == 0 }
         print(allEven) // true
 
-
-        var greeting11 = "Helloplayground"
-        var result = greeting11.replacingOccurrences(of: "Hello", with: "")
-
-        print(result)
-        
-        
         // Swift program to use sorted() function
         let wordss = ["apple", "banana", "cherry", "date"]
           
         // Sorting an array of integers in descending order
         let sortedWords = wordss.sorted(by: { $0 > $1 })
-          
         print(sortedWords)
         
-        let arr5 = [1, 2, 3, 4, 5, 1, 2]
-        var uniqueNumbers: [Int] = []
-        for num in arr5 {
-            if !uniqueNumbers.contains(num) {
-                uniqueNumbers.append(num)
-            }
-        }
-        print(uniqueNumbers) // Output: [1, 2, 3, 4, 5]
-
-        
-        
-        var values5 = ["1", "Hello", "3", "nil", "5"]
-        var filteredValues: [String] = []
-
-        for value in values5 {
-            if value != "nil" {
-                filteredValues.append(value)
-            }
-        }
-        print(filteredValues) // Output: ["1", "Hello", "3", "5"]
-
-
-        
+         */
     }
 
 
