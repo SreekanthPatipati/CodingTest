@@ -255,7 +255,6 @@ class PlayGround: UIViewController {
         }
         
         let currentDirection = Direction.east
-        
         switch currentDirection {
         case .north:
             print("Going North")

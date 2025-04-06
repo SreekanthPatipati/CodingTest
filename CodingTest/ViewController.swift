@@ -39,9 +39,16 @@ class ViewController: UIViewController {
         
         // MARK: - reverse palindrom
         var reversArray = ["h", "e", "l", "l", "o"]
+        let reversed = reversArray.reversed()
+        print(Array(reversed))  // Output: ["o", "l", "l", "e", "h"]
+        
         // MARK: - count the array
         var countArray = ["apple", "banana", "apple", "orange", "banana", "banana"]
-        
+        var itemCount: [String: Int] = [:]
+        for item in countArray {
+            itemCount[item, default: 0] += 1
+        }
+        print(itemCount) // Output: ["apple": 2, "banana": 3, "orange": 1]
         
         // MARK: - Longest word and Shortest word
         var longAndShortArray = ["Swift", "Programming", "HigherOrderFunctions", "Sree"]
