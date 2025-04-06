@@ -232,7 +232,18 @@ class PlayGround: UIViewController {
         let result = greeting.replacingOccurrences(of: "Hello", with: "")
         print(result) // playground
         
+        
         // MARK: - Singletone Example
+        class MySingleton {
+            static let shared = MySingleton()  // 🔒 Single shared instance
+            func doSomething() {
+                print("Doing something from singleton")
+            }
+        }
+
+        MySingleton.shared.doSomething()
+        let reslt = MySingleton.shared.doSomething()
+        print(reslt)
         
         
         // MARK: - Enum Example
