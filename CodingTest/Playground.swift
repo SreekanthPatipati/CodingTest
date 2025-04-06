@@ -240,15 +240,32 @@ class PlayGround: UIViewController {
                 print("Doing something from singleton")
             }
         }
-
+        
         MySingleton.shared.doSomething()
-        let reslt = MySingleton.shared.doSomething()
+        let reslt: () = MySingleton.shared.doSomething()
         print(reslt)
         
         
         // MARK: - Enum Example
+        enum Direction {
+            case north
+            case south
+            case east
+            case west
+        }
         
+        let currentDirection = Direction.east
         
+        switch currentDirection {
+        case .north:
+            print("Going North")
+        case .south:
+            print("Going South")
+        case .east:
+            print("Going East")
+        case .west:
+            print("Going West")
+        }
         
         
     }
