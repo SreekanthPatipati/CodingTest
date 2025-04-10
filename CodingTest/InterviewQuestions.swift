@@ -99,7 +99,7 @@ class InterviewQuestions: UIViewController {
          79. How do retain cycles happen with closures?
          70. Diff between atomic and non-atomic?
          
-         71. How does @MainActor affect memory usage?
+         71. What is diff between actor and @MainActor?
          72. How does Swift’s reference counting work under the hood?
          73. What is Result Type in Swift?
          74. Diff between Reference type and Value type?
@@ -367,6 +367,10 @@ class InterviewQuestions: UIViewController {
                                 - App info (screenshots, description, category,Pricing & availability)
          6. Submit for Review
          
+         What is diff between actor and @MainActor?
+            actor - run the Background thread.
+            @MainActor - runs on the main thread[UI updates in iOS/macOS].
+                       - Can be used - function,property,class or struct
          */
         
         
