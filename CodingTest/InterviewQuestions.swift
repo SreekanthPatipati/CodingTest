@@ -344,6 +344,28 @@ class InterviewQuestions: UIViewController {
                 open var model = "Corolla"       // Anyone can use & override
             }
 
+         How to upload app in appstore in xcode project ?
+         1. Check Requirements - Apple Developer Account,
+                                 App must pass all App Store Guidelines
+                                 Use a real device for testing
+         2. Prepare Your Xcode Project
+                                - App name, version, and build number are correct
+                                - Set your team under Signing & Capabilities
+         3. Archive the App
+                                - Select a real device or "Any iOS Device" as the build target
+                                - Go to Product > Archive
+         4. Upload to App Store
+                                - Select the archive
+                                - Click Distribute App
+                                - Choose App Store Connect
+                                - Then choose Upload
+                                - Follow the steps (e.g., automatic signing, no issues)
+                                - Click Upload
+         5. Go to App Store Connect
+                                - Go to My Apps → Select your app
+                                - Add a new version if needed
+                                - App info (screenshots, description, category,Pricing & availability)
+         6. Submit for Review
          
          */
         
