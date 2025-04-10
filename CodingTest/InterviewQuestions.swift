@@ -391,6 +391,11 @@ class InterviewQuestions: UIViewController {
             - Update it
             - Delete it
          
+         What is a completion handler, and how do you use it?
+            - A completion handler is a block of code that runs after a task is finished.
+            - Used for - Network requests, Animations, Async operations
+         
+         
          
          */
         
