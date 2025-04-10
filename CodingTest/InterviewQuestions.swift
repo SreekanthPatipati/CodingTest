@@ -18,7 +18,7 @@ class InterviewQuestions: UIViewController {
          1. What are Optionals in Swift?
          2. What is the difference between var and let?
          3. How does Swift handle memory management?
-         4. What is Property? What are computed properties and lazy properties?
+         4. What is Property? What are Stored property,computed properties and lazy properties?
          5. What is the difference between struct and class?
          
          6. What are higher-order functions (map, filter, reduce, compactMap, flatMap)?
@@ -370,7 +370,14 @@ class InterviewQuestions: UIViewController {
          What is diff between actor and @MainActor?
             actor - run the Background thread.
             @MainActor - runs on the main thread[UI updates in iOS/macOS].
-                       - Can be used - function,property,class or struct
+                       - Can be used - function,property,class or struct.
+         
+         What is Property? What are Stored property,computed properties and lazy properties?
+            - A property is a value inside a class, struct, or enum.
+         1. Stored Property - Stores a value directly.
+         2. Computed Property - Doesn’t store a value,it calculates it every time you access it.
+         3. Lazy Property - Value is not created until it’s used. and Must be a var.
+         
          */
         
         
