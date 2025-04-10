@@ -16,24 +16,24 @@ class ViewController: UIViewController {
         // MARK: - higher-order functions
         
         // MARK: - remove the nil values
-        var userArray = ["1", "Hello", "3", "nil", "5"]
+        let userArray = ["1", "Hello", "3", "nil", "5"]
         let aa = userArray.filter { $0 != "nil" }
         print(aa) // ["1", "Hello", "3", "5"]
         
         // MARK: - filter String words only
-        var userArrayValue = ["1","2","3","Sree","Kanth"]
+        let userArrayValue = ["1","2","3","Sree","Kanth"]
         let zz = userArrayValue.filter { Int($0) == nil }
         print(zz) // ["Sree", "Kanth"]
         let qq = userArrayValue.filter { Int($0) != nil }
         print(qq) // ["1", "2", "3"]
         
         // MARK: - remove nil value
-        var userArrayNil = ["1", "Hello", "3", nil, "5"]
+        let userArrayNil = ["1", "Hello", "3", nil, "5"]
         let pp = userArrayNil.compactMap { $0 }
         print(pp) // ["1", "Hello", "3", "5"]
         
         // MARK: - remove nil values
-        var userNumbers = [1, nil, 3, nil, 5, 6, nil, 8]
+        let userNumbers = [1, nil, 3, nil, 5, 6, nil, 8]
         let xx = userNumbers.compactMap { $0 }
         print(xx) // [1, 3, 5, 6, 8]
         
@@ -51,7 +51,7 @@ class ViewController: UIViewController {
         print(itemCount) // Output: ["apple": 2, "banana": 3, "orange": 1]
         
         // MARK: - Longest word and Shortest word
-        var longAndShortArray = ["Swift", "Programming", "HigherOrderFunctions", "Sree"]
+        let longAndShortArray = ["Swift", "Programming", "HigherOrderFunctions", "Sree"]
         if let longest = longAndShortArray.max(by: { $0.count > $1.count }) {
             print("Longest word: \(longest)")
         } // "HigherOrderFunctions" or // Sree
@@ -66,28 +66,28 @@ class ViewController: UIViewController {
         print(uuu) //
         
         // MARK: - Ascending order and desending order
-        var sortingArray = [9,8,1,2,4,5,6,7]
+        let sortingArray = [9,8,1,2,4,5,6,7]
         let ss = sortingArray.sorted(by: >)
         print(ss) // [9, 8, 7, 6, 5, 4, 2, 1]
         let ww = sortingArray.sorted(by: <)
         print(ww) // [1, 2, 4, 5, 6, 7, 8, 9]
         
         // MARK: - Higest Number and Lowest Number
-        var higherNumberArray = [9,8,1,2,4,5,6,7]
+        let higherNumberArray = [9,8,1,2,4,5,6,7]
         let ee = higherNumberArray.max()!
         print(ee) // 9
         let dd = higherNumberArray.min()!
         print(dd) // 1
         
         // MARK: - Second Highest and Second Lowest number
-        var secondHightAndLowestNumberArray = [9,8,1,2,4,5,6,7]
+        let secondHightAndLowestNumberArray = [9,8,1,2,4,5,6,7]
         let cc = secondHightAndLowestNumberArray.sorted(by: <).dropFirst().first!
         print(cc) // 2
         let rr = secondHightAndLowestNumberArray.sorted(by: >).dropFirst().first!
         print(rr) // 8
         
         // MARK: - remove duplicate values
-        var duplicateArray = [1, 2, 3, 4, 5, 1, 2]
+        let duplicateArray = [1, 2, 3, 4, 5, 1, 2]
         let ll = Array(Set(duplicateArray))
         print(ll) // [1, 4, 2, 3, 5]
         
@@ -100,22 +100,22 @@ class ViewController: UIViewController {
         print(nn) // [1,2]
         
         // MARK: - addition numbers
-        var sumArray = [1, 3, 10, 2, 5]
+        let sumArray = [1, 3, 10, 2, 5]
         let tt = sumArray.reduce(0, +)
         print(tt) // 21
         
         // MARK: - multiply the numbers
-        var multiplyArray = [1, 3, 10, 2, 5]
+        let multiplyArray = [1, 3, 10, 2, 5]
         let gg = multiplyArray.map{ $0 * 2 }
         print(gg)// [2, 6, 20, 4, 10]
         
         // MARK: - Square the number
-        var multiplyArray2 = [1, 3, 10, 2, 5]
+        let multiplyArray2 = [1, 3, 10, 2, 5]
         let bb = multiplyArray2.map{ $0 * $0 }
         print(bb)// [1, 9, 100, 4, 25]
         
         // MARK: - Even numbers
-        var numbersArray = [1, 3, 10, 2, 5]
+        let numbersArray = [1, 3, 10, 2, 5]
         let yy = numbersArray.filter { $0 % 2 == 0 }
         print(yy) // [10, 2]
         let hh = numbersArray.filter { $0 % 2 != 0 }
@@ -138,17 +138,17 @@ class ViewController: UIViewController {
         
         
         // MARK: - Palindrom
-        var palindromString = "madam"
+        let palindromString = "madam"
         let kk = String(palindromString.reversed())
         print(kk) // madam
         
         // MARK: - Find the string value
-        var greeting = "Helloplayground"
+        let greeting = "Helloplayground"
         let result = String(greeting.suffix("playground".count))
         print(result) // playground
         
         // MARK: - FlatMap
-        var flatMaping = [[2, 3], [3, 4], [5, 6]]
+        let flatMaping = [[2, 3], [3, 4], [5, 6]]
         let jj = flatMaping.flatMap { $0 }
         print(jj) // [2, 3, 3, 4, 5, 6]
         
