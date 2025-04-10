@@ -329,6 +329,21 @@ class InterviewQuestions: UIViewController {
             Priority Control – Assign different priorities to tasks.
             Thread Safety – NSOperationQueue is thread-safe.
          
+         Access modifires in Swift?
+            1. Open - Anyone can use it,Even from outside your project (e.g., in a library).
+            2. Public - Anyone can use it.
+            3. Internal (default) - Can be used only inside your project.
+            4. Fileprivate - Can be used only in the same file.
+            5. Private - Can be used only in the same class or struct.
+            Ex:-
+            class Car {
+                private var engine = "V8"        // Only inside Car
+                fileprivate var speed = 100      // Only in this file
+                internal var color = "Red"       // Whole app can see
+                public var brand = "Toyota"      // Anyone can use
+                open var model = "Corolla"       // Anyone can use & override
+            }
+
          
          */
         
