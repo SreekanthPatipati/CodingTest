@@ -115,7 +115,7 @@ class InterviewQuestions: UIViewController {
          82. What is TCA (The Composable Architecture)?
          83. What are Reducers and Effects in SwiftUI architecture?
          84. How do you scale a SwiftUI app for a large team?
-         85. How do you handle deep linking in iOS?
+         85. How do you handle deep linking in iOS? and What is Universal Link?
          
          86. What is Event-Driven Architecture in iOS?
          87. What are type aliases in Swift?
