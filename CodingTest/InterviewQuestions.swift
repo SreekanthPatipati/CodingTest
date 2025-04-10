@@ -378,6 +378,12 @@ class InterviewQuestions: UIViewController {
          2. Computed Property - Doesn’t store a value,it calculates it every time you access it.
          3. Lazy Property - Value is not created until it’s used. and Must be a var.
          
+         What is the difference between some and any in Swift?
+         some - Always one fixed type[This is some specific type],
+              - Faster.
+         any  - Can be any type,
+              - Slower.
+         
          */
         
         
