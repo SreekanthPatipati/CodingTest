@@ -45,7 +45,7 @@ class InterviewQuestions: UIViewController {
          24. Collection Types in Swift?
          25. How does onAppear and onDisappear work in SwiftUI?
          
-         26. How does Transaction and Animation work in SwiftUI?
+         26. What is an NSManagedObject?
          27. What are MatchedGeometryEffect and @Namespace used for?
          28. How do you optimize performance in a large SwiftUI list?
          29. How does SwiftUI handle dependency injection?
@@ -383,6 +383,14 @@ class InterviewQuestions: UIViewController {
               - Faster.
          any  - Can be any type,
               - Slower.
+         
+         What is an NSManagedObject?
+            - It’s a Core Data object and the help of store and manage data in the database.
+            - Save it to Core Data
+            - Fetch it from Core Data
+            - Update it
+            - Delete it
+         
          
          */
         
