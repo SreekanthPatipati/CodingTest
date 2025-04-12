@@ -330,11 +330,11 @@ class InterviewQuestions: UIViewController {
             Thread Safety – NSOperationQueue is thread-safe.
          
          Access modifires in Swift?
-            1. Open - Anyone can use it,Even from outside your project (e.g., in a library).
-            2. Public - Anyone can use it.
+            1. Private - Can be used only in the same class or struct.
+            2. Fileprivate - Can be used only in the same file.
             3. Internal (default) - Can be used only inside your project.
-            4. Fileprivate - Can be used only in the same file.
-            5. Private - Can be used only in the same class or struct.
+            4. Public - Anyone can use it.
+            5. Open - Anyone can use it,Even from outside your project (e.g., in a library).
             Ex:-
             class Car {
                 private var engine = "V8"        // Only inside Car
