@@ -376,7 +376,7 @@ class InterviewQuestions: UIViewController {
             - A property is a value inside a class, struct, or enum.
          1. Stored Property - Stores a value directly.
          2. Computed Property - Doesn’t store a value,it calculates it every time you access it.
-         3. Lazy Property - Value is not created until it’s used. and Must be a var.
+         3. Lazy Property - Stored a value but First time it's used. and Must be a "var".
          
          What is the difference between some and any in Swift?
          some - Always one fixed type[This is some specific type],
