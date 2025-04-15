@@ -412,6 +412,9 @@ class InterviewQuestions: UIViewController {
             - View – SwiftUI or UIKit views; handles UI only.
             - ViewModel – Contains presentation logic
          
+         What is the difference between .frame() and .padding() in SwiftUI?
+            frame() - Sets a fixed width, height, or alignment for a view using constrains.
+            padding() - It increases the space between the view and surrounding elements(Adds space around the view).
          */
         
         
