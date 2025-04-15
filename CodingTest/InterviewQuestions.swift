@@ -395,7 +395,11 @@ class InterviewQuestions: UIViewController {
             - A completion handler is a block of code that runs after a task is finished.
             - Used for - Network requests, Animations, Async operations
          
-         
+         Code Review Best Practices?
+            - Naming conventions should be clear
+            - Code should be easy to understand.
+            - Check for unnecessary complexity
+            - Ensure new code is covered by unit tests.
          
          */
         
