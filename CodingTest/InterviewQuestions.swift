@@ -415,6 +415,9 @@ class InterviewQuestions: UIViewController {
          What is the difference between .frame() and .padding() in SwiftUI?
             frame() - Sets a fixed width, height, or alignment for a view using constrains.
             padding() - It increases the space between the view and surrounding elements(Adds space around the view).
+         
+         How does List work in SwiftUI?
+            - List is used to create scrollable views that display rows of data — kind of like UITableView
          */
         
         
