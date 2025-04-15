@@ -401,6 +401,17 @@ class InterviewQuestions: UIViewController {
             - Check for unnecessary complexity
             - Ensure new code is covered by unit tests.
          
+         MVC (Model-View-Controller)
+            - Model – Data layer (business logic, structs/classes, persistence)
+            - View – UI layer (storyboards, xibs, SwiftUI views, UIKit views)
+            - Controller – Mediator between Model and View (usually UIViewController)
+         
+         MVVM (Model-View-ViewModel)
+            - MVVM is a more scalable and testable architecture, especially useful in SwiftUI
+            - Model – Same as in MVC.
+            - View – SwiftUI or UIKit views; handles UI only.
+            - ViewModel – Contains presentation logic
+         
          */
         
         
