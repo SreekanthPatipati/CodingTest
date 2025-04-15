@@ -418,6 +418,14 @@ class InterviewQuestions: UIViewController {
          
          How does List work in SwiftUI?
             - List is used to create scrollable views that display rows of data — kind of like UITableView
+         
+         Diff between Cocoa and CocoaTouch?
+             Cocoa - macOS development
+                   - Framework - AppKit
+                   - Desktop apps
+             Cocoa Touch - iOS, iPadOS, watchOS, and tvOS development
+                         - Framework - UIKit
+                         - Mobile and embedded apps
          */
         
         
