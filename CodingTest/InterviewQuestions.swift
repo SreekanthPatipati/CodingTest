@@ -271,6 +271,9 @@ class InterviewQuestions: UIViewController {
             Event-Driven Architecture is a user Action [Button Click,Delegates,Notification Center,TableView Delegate]
             App respond accordingly based on that action
             Ex - didSelectRowAt in tableview
+         What is Closure?
+            - it is variable and Holding the function.
+            - A closure is a self-contained block of code.
          Types of Closures?
             - Global Closures - They are declared globally, outside of any function or class.
                                 Assign function to a variable
