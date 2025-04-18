@@ -437,6 +437,14 @@ class InterviewQuestions: UIViewController {
             - DispatchQueue.main [Update UI work or Run code on the main thread].
             - DispatchQueue.global [Run code on a background thread].
          
+         Collection Types in Swift?
+            1. Array - Colletion of elements
+                     - duplicate values
+            2. Set - Stores unique values
+                   - Unordered
+            3. Dictionary - Store the key-value
+                          - Keys must be unique
+                          - Value is Data
          */
         
         
