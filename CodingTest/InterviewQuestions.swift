@@ -473,6 +473,15 @@ class InterviewQuestions: UIViewController {
             - Benefits of:- 1.Easy error handling
                             2.Concurrency
          
+         What is Result Type in Swift?
+            - To handle success or failure cases
+         
+         Types of Data Bases?
+            1.NSUserdefaults
+            2.PList
+            3.KeyChainServices
+            4.SQLite
+            5.CoreData
          
          */
         
