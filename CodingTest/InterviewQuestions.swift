@@ -462,6 +462,12 @@ class InterviewQuestions: UIViewController {
             - One to many relationship that is called notificationCenter.
             - Based on Observer Pattern we need to pass the data.
          
+         What is the difference between UserDefaults, Keychain, and CoreData with Example?
+            1. UserDefaults - Stores small amounts of user data and get the User data.
+                            - Security: Not secure (data is stored in plain text)
+            2. Keychain - Stores sensitive data like passwords, API tokens, and encryption keys.
+                        - Security: Highly secure. Data is encrypted and stored in the iOS Keychain.
+         
          */
         
         
