@@ -103,11 +103,11 @@ class InterviewQuestions: UIViewController {
          72. How does Swift’s reference counting work under the hood?
          73. What is Result Type in Swift?
          74. Diff between Reference type and Value type?
-         75. What is a Singleton in Swift?
+         75.
          
          76. What is Protocol-Oriented Programming (POP)?
          77. What is Clean Architecture in iOS?
-         78. What is VIPER architecture?
+         78.
          79. How do you handle State Management in SwiftUI?
          80. What is SOLID principle in Swift?
          
@@ -183,7 +183,7 @@ class InterviewQuestions: UIViewController {
          39. Access modifires in Swift?
          40. What is generics in Swift and why use?
          
-         41. What is a singleton pattern, and how do you implement it?
+         41. What is a Singleton pattern, and how do you implement it?
          42. What is Codable, and how do you use it in Swift?
          43. What is dependency injection in Swift?
          44. What is the difference between @Published and @StateObject?
@@ -450,6 +450,10 @@ class InterviewQuestions: UIViewController {
             3. Dictionary - Store the key-value
                           - Keys must be unique
                           - Value is Data
+         
+         What is a Singleton pattern, and how do you implement it?
+            - Only one instance of the class is created that is called Singleton class.
+            - Ex- NSUserdefault.
          */
         
         
