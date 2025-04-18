@@ -49,7 +49,7 @@ class InterviewQuestions: UIViewController {
          27. What are MatchedGeometryEffect and @Namespace used for?
          28. How do you optimize performance in a large SwiftUI list?
          29. How does SwiftUI handle dependency injection?
-         30. What is Notification center in Swift?
+         30. What is NotificationCenter in Swift?
          
          31. What is the difference between UIView and UIViewController?
          32. How does Auto Layout work in UIKit?
@@ -168,7 +168,7 @@ class InterviewQuestions: UIViewController {
          26. What is an actor in Swift?
          27. How does Task.detached {} work?
          28. Type Safety?
-         29. What is Observer Pattern in Swift?
+         29.
          30. What is the difference between NavigationView and NavigationStack?
          
          31. What is Enum and explain it?
@@ -454,6 +454,14 @@ class InterviewQuestions: UIViewController {
          What is a Singleton pattern, and how do you implement it?
             - Only one instance of the class is created that is called Singleton class or pattern.
             - Ex- NSUserdefault.
+         
+         What is delegate in Swift?
+            - Passing the message from one object to another object that is called delegate.
+         
+         What is NotificationCenter in Swift?
+            - One to many relationship that is called notificationCenter.
+            - Based on Observer Pattern we need to pass the data.
+         
          */
         
         
