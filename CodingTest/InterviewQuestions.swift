@@ -387,6 +387,11 @@ class InterviewQuestions: UIViewController {
          any  - Can be any type,
               - Slower.
          
+         What is Core Data, and how do you use it?
+            - Core Data is Apple’s framework
+            - Used to save, fetch, Update, delete and manage data locally in your iOS app — like a local database.
+            - Save data permanently on the device
+         
          What is an NSManagedObject?
             - It’s a Core Data object and the help of store and manage data in the database.
             - Save it to Core Data
