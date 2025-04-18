@@ -487,6 +487,9 @@ class InterviewQuestions: UIViewController {
             - Codable - is a protocal
             - To be easily encoded and decoded the JSON data.
          
+         What is a tuple in Swift?
+            - A group of multiple values in a single compound that is called Tuple.
+         
          */
         
         
