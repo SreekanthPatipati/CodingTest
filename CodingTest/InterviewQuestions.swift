@@ -426,6 +426,14 @@ class InterviewQuestions: UIViewController {
              Cocoa Touch - iOS, iPadOS, watchOS, and tvOS development
                          - Framework - UIKit
                          - Mobile and embedded apps
+         
+         What is Grand Central Dispatch (GCD) in Swift?
+            - GCD (Grand Central Dispatch) is a low-level API in iOS.
+            - GCD is power full Framework.
+            - GCD to manage multiple Task to run at a time.
+            - DispatchQueue.main [Update UI work or Run code on the main thread].
+            - DispatchQueue.global [Run code on a background thread].
+         
          */
         
         
