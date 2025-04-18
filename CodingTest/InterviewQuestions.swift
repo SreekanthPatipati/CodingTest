@@ -452,7 +452,7 @@ class InterviewQuestions: UIViewController {
                           - Value is Data
          
          What is a Singleton pattern, and how do you implement it?
-            - Only one instance of the class is created that is called Singleton class.
+            - Only one instance of the class is created that is called Singleton class or pattern.
             - Ex- NSUserdefault.
          */
         
