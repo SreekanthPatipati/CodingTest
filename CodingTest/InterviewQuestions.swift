@@ -468,6 +468,12 @@ class InterviewQuestions: UIViewController {
             2. Keychain - Stores sensitive data like passwords, API tokens, and encryption keys.
                         - Security: Highly secure. Data is encrypted and stored in the iOS Keychain.
          
+         What is async/await in Swift?
+            - Suspend the current task until Async operation is complete that is called async/await.
+            - Benefits of:- 1.Easy error handling
+                            2.Concurrency
+         
+         
          */
         
         
