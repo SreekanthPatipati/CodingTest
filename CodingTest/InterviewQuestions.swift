@@ -483,6 +483,10 @@ class InterviewQuestions: UIViewController {
             4.SQLite
             5.CoreData
          
+         What is Codable, and how do you use it in Swift?
+            - Codable - is a protocal
+            - To be easily encoded and decoded the JSON data.
+         
          */
         
         
