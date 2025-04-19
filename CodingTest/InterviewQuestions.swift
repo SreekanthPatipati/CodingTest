@@ -468,6 +468,12 @@ class InterviewQuestions: UIViewController {
             - DispatchQueue.main [Update UI work or Run code on the main thread].
             - DispatchQueue.global [Run code on a background thread].
          
+         What is Main Thread and why is it important?
+            - The main thread is where UI updates happen in iOS apps.
+            - DispatchQueue.main.async {
+                    label.text = "Updated"
+                }
+         
          Collection Types in Swift?
             1. Array - Colletion of elements
                      - duplicate values
