@@ -474,6 +474,15 @@ class InterviewQuestions: UIViewController {
                     label.text = "Updated"
                 }
          
+         How do you prevent the main thread from freezing?
+            - Run heavy tasks on a background thread(like downloading, saving files), not on the main thread.
+             - DispatchQueue.global().async {
+                 // heavy task (e.g., download)
+                 DispatchQueue.main.async {
+                     // update UI
+                 }
+             }
+         
          Collection Types in Swift?
             1. Array - Colletion of elements
                      - duplicate values
