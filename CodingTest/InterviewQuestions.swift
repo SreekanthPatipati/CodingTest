@@ -511,6 +511,11 @@ class InterviewQuestions: UIViewController {
          What is a tuple in Swift?
             - A group of multiple values in a single compound that is called Tuple.
          
+         What is Type Annotation?
+            - Type annotation means telling Swift the type of a variable or constant.
+            - let name: String = "John"
+         
+         
          */
         
         
