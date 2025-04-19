@@ -29,7 +29,7 @@ class InterviewQuestions: UIViewController {
          
          11. What is Type Casting and types in Swift?
          12. Diffs between Value Semantics and Reference Semantics?
-         13. What is the difference between Result<T, Error> and throws?
+         13.
          14. What is Type annotation?
          15. What is @propertyWrapper and how is it used?
          
@@ -460,6 +460,11 @@ class InterviewQuestions: UIViewController {
             - GCD (Grand Central Dispatch) is a low-level API in iOS.
             - GCD is power full Framework.
             - GCD to manage multiple Task to run at a time.
+            - DispatchQueue.main [Update UI work or Run code on the main thread].
+            - DispatchQueue.global [Run code on a background thread].
+         
+         What is DispatchQueue in Swift?
+            - DispatchQueue is part of GCD (Grand Central Dispatch)
             - DispatchQueue.main [Update UI work or Run code on the main thread].
             - DispatchQueue.global [Run code on a background thread].
          
