@@ -127,7 +127,7 @@ class InterviewQuestions: UIViewController {
          92. What is a tuple in Swift?
          93. What is the difference between a function and a closure in Swift?
          94. How does Swift handle errors using throws?
-         95. What are generics in Swift?
+         95.
          
          96. What is the difference between Array, Set, and Dictionary?
          97. What is Exception handling or Error handling?
@@ -553,6 +553,11 @@ class InterviewQuestions: UIViewController {
             - A guard statement is used for early exit in a function
             - return value must
             - guard is used to check a condition
+         
+         What is Combine in Swift?
+            - Combine is Apple’s framework to handle asynchronous events(like network calls, user inputs) using declarative code.
+         
+         
          */
         
         
