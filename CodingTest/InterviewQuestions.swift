@@ -535,6 +535,21 @@ class InterviewQuestions: UIViewController {
             - Type annotation means telling Swift the type of a variable or constant.
             - let name: String = "John"
          
+         What are higher-order functions (map, filter, reduce, compactMap, flatMap)?
+            - map:    Transforms each element
+            - filter:    Filters elements based on a condition
+            - reduce:    Combines all elements into a single value
+            - compactMap:    Removes nils and unwraps optionals
+            - flatMap:    Flattens nested arrays/lists
+         
+             let numbers = [1, 2, 3, 4, 5]
+
+             let squares = numbers.map { $0 * $0 }         // [1, 4, 9, 16, 25]
+             let even = numbers.filter { $0 % 2 == 0 }     // [2, 4]
+             let sum = numbers.reduce(0, +)                // 15
+             let strings = ["1", "two", "3", nil]
+             let valid = strings.compactMap { $0 }         // ["1", "two", "3"]
+         
          
          */
         
