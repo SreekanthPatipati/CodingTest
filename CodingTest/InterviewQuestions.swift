@@ -172,7 +172,7 @@ class InterviewQuestions: UIViewController {
          30. What is the difference between NavigationView and NavigationStack?
          
          31. What is Enum and explain it?
-         32. Types of Data Bases?
+         32. Types of DataBases?
          33. What is ViewModifier, and how is it used?
          34. App life cycles or IOS Application states?
          35. Diff between Cocoa and CocoaTouch?
@@ -516,7 +516,7 @@ class InterviewQuestions: UIViewController {
          What is Result Type in Swift?
             - To handle success or failure cases
          
-         Types of Data Bases?
+         Types of DataBases?
             1.NSUserdefaults
             2.PList
             3.KeyChainServices
@@ -557,6 +557,21 @@ class InterviewQuestions: UIViewController {
          What is Combine in Swift?
             - Combine is Apple’s framework to handle asynchronous events(like network calls, user inputs) using declarative code.
          
+         What is Enum and explain it?
+            - A group of related values
+            - enum means enumeration
+            - Ex: Switch case
+         
+         What is ViewModifier, and how is it used?
+            - A ViewModifier is a way to create reusable styles for SwiftUI views.
+            - Uses: code clean, reusability
+         
+         App Life Cycle / iOS Application States
+             Active – App running in the forground and receiving events
+             Inactive – App Running in the forground but not receiving events (like during a phone call)
+             Background – App Run in the background and excuting the code (e.g., downloading)
+             Suspended – App in memory but not executing code
+             Termined – App is not launched
          
          */
         
