@@ -133,7 +133,7 @@ class InterviewQuestions: UIViewController {
          97. What is Exception handling or Error handling?
          98. What is the difference between inout parameters and return values?
          99. How do trailing closures work in Swift?
-         100.What is an autoclosure in Swift?
+         100.
          
          1. What is the difference between escaping and non-escaping closures?
          2. What is a completion handler, and how do you use it?
@@ -288,8 +288,7 @@ class InterviewQuestions: UIViewController {
             - A closure is a self-contained block of code.
          
          Types of Closures?
-            - Global Closures - They are declared globally, outside of any function or class.
-                                Assign function to a variable
+            - Global Closures - No capture of values
             - Nested (Local) Closures - function in side closure is defined
             - Closure Expressions (Inline Closures) - These are anonymous closures used in higher-order functions like map, filter, and reduce.
             - Escaping Closures
@@ -550,7 +549,10 @@ class InterviewQuestions: UIViewController {
              let strings = ["1", "two", "3", nil]
              let valid = strings.compactMap { $0 }         // ["1", "two", "3"]
          
-         
+         What is a guard statement in Swift?
+            - A guard statement is used for early exit in a function
+            - return value must
+            - guard is used to check a condition
          */
         
         
